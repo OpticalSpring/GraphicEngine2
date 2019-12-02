@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - post
+  - away
+  - one_talk
+  - die
+  - sound
+  - train_die
+  - wall
+  - train
   layers:
   - Default
   - TransparentFX
