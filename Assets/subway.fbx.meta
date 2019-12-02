@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 880153f6ad647a54a840b7dcd80d6a6e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: _stairs
+    100002: boxlight
+    100004: boxlight 1
+    100006: Cube
+    100008: Cube (1)
+    100010: Cube (1) 1
+    100012: Cube (1) 2
+    100014: Cube (10)
+    100016: Cube (10) 1
+    100018: Cube (11)
+    100020: Cube (11) 1
+    100022: Cube (12)
+    100024: Cube (12) 1
+    100026: Cube (13)
+    100028: Cube (13) 1
+    100030: Cube (14)
+    100032: Cube (15)
+    100034: Cube (15) 1
+    100036: Cube (16)
+    100038: Cube (16) 1
+    100040: Cube (17)
+    100042: Cube (17) 1
+    100044: Cube (18)
+    100046: Cube (18) 1
+    100048: Cube (19)
+    100050: Cube (2)
+    100052: Cube (2) 1
+    100054: Cube (20)
+    100056: Cube (21)
+    100058: Cube (22)
+    100060: Cube (23)
+    100062: Cube (24)
+    100064: Cube (25)
+    100066: Cube (26)
+    100068: Cube (27)
+    100070: Cube (28)
+    100072: Cube (29)
+    100074: Cube (3)
+    100076: Cube (3) 1
+    100078: Cube (3) 2
+    100080: Cube (30)
+    100082: Cube (31)
+    100084: Cube (33)
+    100086: Cube (34)
+    100088: Cube (35)
+    100090: Cube (36)
+    100092: Cube (37)
+    100094: Cube (38)
+    100096: Cube (39)
+    100098: Cube (4)
+    100100: Cube (4) 1
+    100102: Cube (4) 2
+    100104: Cube (40)
+    100106: Cube (41)
+    100108: Cube (42)
+    100110: Cube (5)
+    100112: Cube (6)
+    100114: Cube (7)
+    100116: Cube (7) 1
+    100118: Cube (8)
+    100120: Cube (8) 1
+    100122: Cube (9)
+    100124: Cube (9) 1
+    100126: Cube 1
+    100128: ground
+    100130: line0
+    100132: line1
+    100134: Pillar_typeB
+    100136: rail
+    100138: Stairs
+    100140: Stairs 1
+    100142: //RootNode
+    100144: Vox_SignEmergencyExit_1
+    100146: Vox_TV_1
+    100148: Vox_TV_2
+    100150: Vox_TV_3
+    100152: wall
+    400000: _stairs
+    400002: boxlight
+    400004: boxlight 1
+    400006: Cube
+    400008: Cube (1)
+    400010: Cube (1) 1
+    400012: Cube (1) 2
+    400014: Cube (10)
+    400016: Cube (10) 1
+    400018: Cube (11)
+    400020: Cube (11) 1
+    400022: Cube (12)
+    400024: Cube (12) 1
+    400026: Cube (13)
+    400028: Cube (13) 1
+    400030: Cube (14)
+    400032: Cube (15)
+    400034: Cube (15) 1
+    400036: Cube (16)
+    400038: Cube (16) 1
+    400040: Cube (17)
+    400042: Cube (17) 1
+    400044: Cube (18)
+    400046: Cube (18) 1
+    400048: Cube (19)
+    400050: Cube (2)
+    400052: Cube (2) 1
+    400054: Cube (20)
+    400056: Cube (21)
+    400058: Cube (22)
+    400060: Cube (23)
+    400062: Cube (24)
+    400064: Cube (25)
+    400066: Cube (26)
+    400068: Cube (27)
+    400070: Cube (28)
+    400072: Cube (29)
+    400074: Cube (3)
+    400076: Cube (3) 1
+    400078: Cube (3) 2
+    400080: Cube (30)
+    400082: Cube (31)
+    400084: Cube (33)
+    400086: Cube (34)
+    400088: Cube (35)
+    400090: Cube (36)
+    400092: Cube (37)
+    400094: Cube (38)
+    400096: Cube (39)
+    400098: Cube (4)
+    400100: Cube (4) 1
+    400102: Cube (4) 2
+    400104: Cube (40)
+    400106: Cube (41)
+    400108: Cube (42)
+    400110: Cube (5)
+    400112: Cube (6)
+    400114: Cube (7)
+    400116: Cube (7) 1
+    400118: Cube (8)
+    400120: Cube (8) 1
+    400122: Cube (9)
+    400124: Cube (9) 1
+    400126: Cube 1
+    400128: ground
+    400130: line0
+    400132: line1
+    400134: Pillar_typeB
+    400136: rail
+    400138: Stairs
+    400140: Stairs 1
+    400142: //RootNode
+    400144: Vox_SignEmergencyExit_1
+    400146: Vox_TV_1
+    400148: Vox_TV_2
+    400150: Vox_TV_3
+    400152: wall
+    2100000: br
+    2100002: ProBuilderDefault
+    2100004: Default-Material
+    2100006: m_test
+    2100008: Emission_White
+    2100010: wall_test
+    2100012: Emission_Red
+    2300000: boxlight
+    2300002: boxlight 1
+    2300004: Cube
+    2300006: Cube (1)
+    2300008: Cube (1) 1
+    2300010: Cube (1) 2
+    2300012: Cube (10)
+    2300014: Cube (10) 1
+    2300016: Cube (11)
+    2300018: Cube (11) 1
+    2300020: Cube (12)
+    2300022: Cube (12) 1
+    2300024: Cube (13)
+    2300026: Cube (13) 1
+    2300028: Cube (14)
+    2300030: Cube (15)
+    2300032: Cube (15) 1
+    2300034: Cube (16)
+    2300036: Cube (16) 1
+    2300038: Cube (17)
+    2300040: Cube (17) 1
+    2300042: Cube (18)
+    2300044: Cube (18) 1
+    2300046: Cube (19)
+    2300048: Cube (2)
+    2300050: Cube (2) 1
+    2300052: Cube (20)
+    2300054: Cube (21)
+    2300056: Cube (22)
+    2300058: Cube (23)
+    2300060: Cube (24)
+    2300062: Cube (25)
+    2300064: Cube (26)
+    2300066: Cube (27)
+    2300068: Cube (28)
+    2300070: Cube (29)
+    2300072: Cube (3)
+    2300074: Cube (3) 1
+    2300076: Cube (3) 2
+    2300078: Cube (30)
+    2300080: Cube (31)
+    2300082: Cube (33)
+    2300084: Cube (34)
+    2300086: Cube (35)
+    2300088: Cube (36)
+    2300090: Cube (37)
+    2300092: Cube (38)
+    2300094: Cube (39)
+    2300096: Cube (4)
+    2300098: Cube (4) 1
+    2300100: Cube (4) 2
+    2300102: Cube (40)
+    2300104: Cube (41)
+    2300106: Cube (42)
+    2300108: Cube (5)
+    2300110: Cube (6)
+    2300112: Cube (7)
+    2300114: Cube (7) 1
+    2300116: Cube (8)
+    2300118: Cube (8) 1
+    2300120: Cube (9)
+    2300122: Cube (9) 1
+    2300124: Cube 1
+    2300126: line0
+    2300128: line1
+    2300130: rail
+    2300132: Stairs
+    2300134: Stairs 1
+    2300136: Vox_SignEmergencyExit_1
+    2300138: Vox_TV_1
+    2300140: Vox_TV_2
+    2300142: Vox_TV_3
+    3300000: boxlight
+    3300002: boxlight 1
+    3300004: Cube
+    3300006: Cube (1)
+    3300008: Cube (1) 1
+    3300010: Cube (1) 2
+    3300012: Cube (10)
+    3300014: Cube (10) 1
+    3300016: Cube (11)
+    3300018: Cube (11) 1
+    3300020: Cube (12)
+    3300022: Cube (12) 1
+    3300024: Cube (13)
+    3300026: Cube (13) 1
+    3300028: Cube (14)
+    3300030: Cube (15)
+    3300032: Cube (15) 1
+    3300034: Cube (16)
+    3300036: Cube (16) 1
+    3300038: Cube (17)
+    3300040: Cube (17) 1
+    3300042: Cube (18)
+    3300044: Cube (18) 1
+    3300046: Cube (19)
+    3300048: Cube (2)
+    3300050: Cube (2) 1
+    3300052: Cube (20)
+    3300054: Cube (21)
+    3300056: Cube (22)
+    3300058: Cube (23)
+    3300060: Cube (24)
+    3300062: Cube (25)
+    3300064: Cube (26)
+    3300066: Cube (27)
+    3300068: Cube (28)
+    3300070: Cube (29)
+    3300072: Cube (3)
+    3300074: Cube (3) 1
+    3300076: Cube (3) 2
+    3300078: Cube (30)
+    3300080: Cube (31)
+    3300082: Cube (33)
+    3300084: Cube (34)
+    3300086: Cube (35)
+    3300088: Cube (36)
+    3300090: Cube (37)
+    3300092: Cube (38)
+    3300094: Cube (39)
+    3300096: Cube (4)
+    3300098: Cube (4) 1
+    3300100: Cube (4) 2
+    3300102: Cube (40)
+    3300104: Cube (41)
+    3300106: Cube (42)
+    3300108: Cube (5)
+    3300110: Cube (6)
+    3300112: Cube (7)
+    3300114: Cube (7) 1
+    3300116: Cube (8)
+    3300118: Cube (8) 1
+    3300120: Cube (9)
+    3300122: Cube (9) 1
+    3300124: Cube 1
+    3300126: line0
+    3300128: line1
+    3300130: rail
+    3300132: Stairs
+    3300134: Stairs 1
+    3300136: Vox_SignEmergencyExit_1
+    3300138: Vox_TV_1
+    3300140: Vox_TV_2
+    3300142: Vox_TV_3
+    4300000: Cube (1)
+    4300002: Cube (2)
+    4300004: Cube (3)
+    4300006: Cube (4)
+    4300008: rail
+    4300010: Cube (7)
+    4300012: Cube (3)
+    4300014: Cube (8)
+    4300016: Cube (9)
+    4300018: Cube (10)
+    4300020: Cube (11)
+    4300022: Cube (12)
+    4300024: Cube (13)
+    4300026: Cube (15)
+    4300028: Cube (4)
+    4300030: Cube (16)
+    4300032: Cube (17)
+    4300034: Cube (18)
+    4300036: Vox_TV_1
+    4300038: Vox_TV_2
+    4300040: Vox_TV_3
+    4300042: Vox_SignEmergencyExit_1
+    4300044: Cube
+    4300046: Cube (2)
+    4300048: Cube (3)
+    4300050: Cube (4)
+    4300052: Cube (5)
+    4300054: Cube (6)
+    4300056: Cube (7)
+    4300058: Cube (8)
+    4300060: Cube (1)
+    4300062: Cube (10)
+    4300064: Cube (11)
+    4300066: Cube (9)
+    4300068: Cube (12)
+    4300070: Cube (13)
+    4300072: Cube (14)
+    4300074: Cube (15)
+    4300076: Cube (17)
+    4300078: Cube (19)
+    4300080: Cube (23)
+    4300082: Cube (29)
+    4300084: Cube (30)
+    4300086: Cube (31)
+    4300088: Cube (33)
+    4300090: Cube (34)
+    4300092: Cube (35)
+    4300094: Cube (36)
+    4300096: Cube (37)
+    4300098: Cube (38)
+    4300100: Cube (39)
+    4300102: Cube (40)
+    4300104: Cube (41)
+    4300106: Cube (42)
+    4300108: Cube (25)
+    4300110: Cube (26)
+    4300112: Cube (20)
+    4300114: Cube (21)
+    4300116: Cube (22)
+    4300118: Cube (18)
+    4300120: Cube (24)
+    4300122: Cube (27)
+    4300124: Cube (28)
+    4300126: Cube (16)
+    4300128: Stairs
+    4300130: Stairs
+    4300132: Cube
+    4300134: Cube (1)
+    4300136: boxlight
+    4300138: boxlight
+    4300140: line0
+    4300142: line1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
