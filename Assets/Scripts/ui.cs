@@ -347,7 +347,7 @@ public class ui : MonoBehaviour
             GameObject.Find("FPSController").transform.Find("FirstPersonCharacter").gameObject.SetActive(false);
             GameObject.Find("last_event").transform.Find("Camera").gameObject.SetActive(true);
             GameObject.Find("Canvas").transform.Find("focus").gameObject.SetActive(false);
-            GameObject.Find("last_event").transform.Find("train").gameObject.SetActive(true);
+            GameObject.Find("last_event").transform.Find("Vox_Train").gameObject.SetActive(true);
 
             Debug.Log("end");
         }
