@@ -890,3 +890,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 10
+  aura:
+  - {fileID: 3717574228040487556}
+  - {fileID: 7038107221578671322}
