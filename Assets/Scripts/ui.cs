@@ -337,6 +337,7 @@ public class ui : MonoBehaviour
         {
             GameObject.Find("last_event").transform.Find("phone").gameObject.SetActive(true);
             GameObject.Find("last_event").transform.Find("event_collider4").gameObject.SetActive(true);
+                GameObject.Find("EventManager").GetComponent<SubwayBackground>().spawnState = false;
         }
         ///////////////////////////////
 
