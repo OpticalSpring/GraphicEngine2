@@ -19,10 +19,6 @@ public class AutoMove : MonoBehaviour
     void Update()
     {
         gameObject.transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
-        if(gameObject.transform.position.z < -70)
-        {
-            GameObject.Find("EventManager").GetComponent<SubwayBackground>().delayDelete = false;
-        }
         if (gameObject.transform.position.z < -100)
         {
             Destroy(gameObject);
