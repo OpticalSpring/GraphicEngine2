@@ -9713,6 +9713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 280747214}
   - component: {fileID: 280747212}
+  - component: {fileID: 280747213}
   m_Layer: 0
   m_Name: EventManager
   m_TagString: Untagged
@@ -9739,6 +9740,18 @@ MonoBehaviour:
   spawnPoint: {fileID: 834085263}
   spawnState: 1
   delayDelete: 0
+--- !u!114 &280747213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280747211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ab972f4c706e64c89efa151db8ae47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &280747214
 Transform:
   m_ObjectHideFlags: 0
@@ -10385,7 +10398,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c9ca4b8bc688ab94caff1b9f04188bae, type: 2}
+  - {fileID: 2100000, guid: a41c425225c504d4ebac67cff1dd0475, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -50091,7 +50104,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591544052}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdcd06815c47d30489f70df42db56a48, type: 3}
   m_Name: 
@@ -53565,7 +53578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1784698218}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.77, y: 4.960379, z: -61.41845}
+  m_LocalPosition: {x: 8.77, y: 4.960379, z: -30.54}
   m_LocalScale: {x: 1, y: 5, z: 100}
   m_Children: []
   m_Father: {fileID: 280747214}

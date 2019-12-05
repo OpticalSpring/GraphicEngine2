@@ -63,6 +63,14 @@ public class ui : MonoBehaviour
 
     bool controll_on = false;
 
+
+    /// <summary>
+    /// /////////////////////////
+    /// 
+    /// 
+    Vector3 oldColorGrading = Vector3.zero;
+    /// </summary>
+
     void Start()
     {
         ///--------------PostProcess
@@ -73,7 +81,9 @@ public class ui : MonoBehaviour
         sound_eff = GameObject.Find("FPSController").transform.Find("sound").GetComponent<AudioSource>();
         ///////////////////////////////
 
-
+        oldColorGrading.x = m_Volume.profile.GetSetting<ColorGrading>().mixerRedOutRedIn.value;
+        oldColorGrading.y = m_Volume.profile.GetSetting<ColorGrading>().mixerRedOutGreenIn.value;
+        oldColorGrading.z = m_Volume.profile.GetSetting<ColorGrading>().mixerRedOutBlueIn.value;
 
     }
 
@@ -154,12 +164,12 @@ public class ui : MonoBehaviour
             }
             //////////////////////////
 
-            //--ColorGrading
-            if (m_Volume.profile.HasSettings<ColorGrading>() == false)
-            {
-                m_Volume.profile.AddSettings<ColorGrading>();
-            }
-            // 있을때만
+            ////--ColorGrading
+            //if (m_Volume.profile.HasSettings<ColorGrading>() == false)
+            //{
+            //    m_Volume.profile.AddSettings<ColorGrading>();
+            //}
+            //// 있을때만
 
             if (m_Volume.profile.HasSettings<ColorGrading>() == true)
             {
@@ -173,7 +183,7 @@ public class ui : MonoBehaviour
 
             m_Volume.profile.GetSetting<ChromaticAberration>().intensity.overrideState = true;
             m_Volume.profile.GetSetting<LensDistortion>().intensity.overrideState = true;
-            m_Volume.profile.GetSetting<ColorGrading>().SetAllOverridesTo(true);
+            //m_Volume.profile.GetSetting<ColorGrading>().SetAllOverridesTo(true);
 
 
             //--메세지
@@ -195,7 +205,10 @@ public class ui : MonoBehaviour
                 {
                     m_Volume.profile.GetSetting<ChromaticAberration>().intensity.overrideState = false;
                     m_Volume.profile.GetSetting<LensDistortion>().intensity.overrideState = false;
-                    m_Volume.profile.GetSetting<ColorGrading>().SetAllOverridesTo(false);
+                    m_Volume.profile.GetSetting<ColorGrading>().mixerRedOutRedIn.value = oldColorGrading.x;
+                    m_Volume.profile.GetSetting<ColorGrading>().mixerRedOutGreenIn.value = oldColorGrading.y;
+                    m_Volume.profile.GetSetting<ColorGrading>().mixerRedOutBlueIn.value = oldColorGrading.z;
+                    // m_Volume.profile.GetSetting<ColorGrading>().SetAllOverridesTo(false);
                     //타이머 시작
                     w_time_run = true;
                 }
