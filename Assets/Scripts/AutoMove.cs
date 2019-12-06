@@ -19,7 +19,7 @@ public class AutoMove : MonoBehaviour
     void Update()
     {
         gameObject.transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
-        if (gameObject.transform.position.z < -100)
+        if (gameObject.transform.position.z < -200)
         {
             Destroy(gameObject);
         }
