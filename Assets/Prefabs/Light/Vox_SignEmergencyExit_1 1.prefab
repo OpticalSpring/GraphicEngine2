@@ -38,25 +38,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2447433006548205099}
     m_Modifications:
-    - target: {fileID: 8930352863594672967, guid: 76596d6db7fe5c849b9fc574b0713abb,
-        type: 3}
-      propertyPath: m_Name
-      value: Vox_square_exit
-      objectReference: {fileID: 0}
     - target: {fileID: 8930352863594704743, guid: 76596d6db7fe5c849b9fc574b0713abb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.2161808
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8930352863594704743, guid: 76596d6db7fe5c849b9fc574b0713abb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5100002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8930352863594704743, guid: 76596d6db7fe5c849b9fc574b0713abb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.9561615
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8930352863594704743, guid: 76596d6db7fe5c849b9fc574b0713abb,
         type: 3}
@@ -112,6 +107,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930352863594672967, guid: 76596d6db7fe5c849b9fc574b0713abb,
+        type: 3}
+      propertyPath: m_Name
+      value: Vox_square_exit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76596d6db7fe5c849b9fc574b0713abb, type: 3}
