@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 323bfd9167e375347b762db377877fcc, type: 3}
+  - {fileID: 2100000, guid: 5b604d544d2893a40998f03d16ce7fd4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4723271841231751350}
   m_Layer: 0
-  m_Name: Sos_sign
+  m_Name: Vox_Sos_sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
