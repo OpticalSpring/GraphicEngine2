@@ -92,14 +92,14 @@ Material:
     - PixelSnap: 0
     - _BumpScale: 1
     - _Cull: 2
-    - _Cutoff: 0.017
+    - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnableExternalAlpha: 0
     - _FresnelScale: 0.75
     - _GerstnerIntensity: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 1
     - _GlossyReflections: 1
     - _InvFade: 0
     - _Metallic: 0
