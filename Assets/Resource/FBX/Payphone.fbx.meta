@@ -4,21 +4,11 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Payphone
-    100004: pCube1
-    100006: pCube2
-    100008: pCube3
-    100010: pCube4
-    100012: transform1
-    100014: transform2
+    100002: pCube1
+    100004: pCube4
     400000: //RootNode
-    400002: Payphone
-    400004: pCube1
-    400006: pCube2
-    400008: pCube3
-    400010: pCube4
-    400012: transform1
-    400014: transform2
+    400002: pCube1
+    400004: pCube4
     2100000: lambert1
     2300000: pCube1
     2300002: pCube4
@@ -26,7 +16,6 @@ ModelImporter:
     3300002: pCube4
     4300000: pCube4
     4300002: pCube1
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
