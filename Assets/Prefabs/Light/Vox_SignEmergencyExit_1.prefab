@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7788936745853214629}
   - component: {fileID: 7788936745853214630}
   - component: {fileID: 7788936745853214631}
-  - component: {fileID: 7788936745853214624}
   m_Layer: 9
   m_Name: Vox_SignEmergencyExit_1
   m_TagString: Untagged
@@ -343,20 +342,6 @@ MonoBehaviour:
   - a: 23
     b: 22
   m_SelectedVertices: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000150000001600000017000000
---- !u!64 &7788936745853214624
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7788936745853214625}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
 --- !u!1 &7788936745956262384
 GameObject:
   m_ObjectHideFlags: 0
