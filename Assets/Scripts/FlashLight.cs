@@ -6,6 +6,7 @@ public class FlashLight : MonoBehaviour
 {
     public Material map1;
     public Material map2;
+    public AudioSource ad;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class FlashLight : MonoBehaviour
     void FlashOn()
     {
         gameObject.GetComponent<MeshRenderer>().material = map1;
+        ad.volume = 0;
        // gameObject.transform.GetChild(0).gameObject.SetActive(true);
         gameObject.transform.GetChild(0).gameObject.GetComponent<Light>().enabled = true;
     }
@@ -38,7 +40,8 @@ public class FlashLight : MonoBehaviour
     void FlashOff()
     {
         gameObject.GetComponent<MeshRenderer>().material = map2;
-       // gameObject.transform.GetChild(0).gameObject.SetActive(false);
+        ad.volume = 1;
+        // gameObject.transform.GetChild(0).gameObject.SetActive(false);
         gameObject.transform.GetChild(0).gameObject.GetComponent<Light>().enabled = false;
     }
 }
