@@ -197,6 +197,7 @@ GameObject:
   - component: {fileID: 819405267860199943}
   - component: {fileID: 819405267858905637}
   - component: {fileID: 819405267857905893}
+  - component: {fileID: 1581346539315664538}
   m_Layer: 0
   m_Name: Fire_body
   m_TagString: Untagged
@@ -264,3 +265,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1581346539315664538
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819405267860162087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2913657, y: 0.63928735, z: 0.29136544}
+  m_Center: {x: 0, y: 0.0487525, z: 0.00000008195639}

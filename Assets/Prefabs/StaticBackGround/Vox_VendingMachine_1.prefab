@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1035428974675838384}
   - component: {fileID: 1035428974672938384}
   - component: {fileID: 1035428974673938256}
+  - component: {fileID: 1481885359178316257}
   m_Layer: 0
   m_Name: Coffee_machine
   m_TagString: Untagged
@@ -78,6 +79,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1481885359178316257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035428974675941776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6525024, y: 2.0791254, z: 1.3069117}
+  m_Center: {x: -0.02285622, y: 1.0395627, z: 0}
 --- !u!1 &1035428974675941778
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,7 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1035428974675838386}
   m_Layer: 0
-  m_Name: Coffee_machine
+  m_Name: Vox_VendingMachine_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
